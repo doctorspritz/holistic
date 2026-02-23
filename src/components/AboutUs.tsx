@@ -44,12 +44,12 @@ export default function AboutUs() {
         {/* Right Side: Practitioner Profile */}
         <div className="lg:col-span-5">
           <div className="bg-[#FAF7F2] rounded-2xl p-8 md:p-10 border border-[#E8E2D5]">
-            {/* Practitioner Avatar */}
-            <div className="w-20 h-20 rounded-full bg-[#E8E2D5] flex items-center justify-center mb-6">
-              <svg className="w-10 h-10 text-[#8A7961]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-            </div>
+            {/* Practitioner Headshot */}
+            <img
+              src="/aimee.webp"
+              alt="Aimee Vajtauer, Nurse Practitioner"
+              className="w-20 h-20 rounded-full object-cover object-top mb-6"
+            />
 
             <h3 className="font-serif text-2xl text-[#2B2824] mb-1">Aimee Vajtauer</h3>
             <p className="text-xs font-bold uppercase tracking-widest text-[#8A7961] mb-6">Nurse Practitioner</p>
