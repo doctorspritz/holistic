@@ -26,9 +26,9 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="md:col-span-4 flex flex-col md:items-end space-y-4">
           <h3 className="text-sm font-bold tracking-widest uppercase text-[#FAF7F2] mb-2">Quick Links</h3>
-          <a href="#enquiries" className="hover:text-white transition-colors duration-200">Enquiries</a>
-          <a href="#enquiries" className="hover:text-white transition-colors duration-200">Book an appointment</a>
+          <a href="#about" className="hover:text-white transition-colors duration-200">About us</a>
           <a href="#services" className="hover:text-white transition-colors duration-200">Our services</a>
+          <a href="#enquiries" className="hover:text-white transition-colors duration-200">Book an appointment</a>
         </div>
         
       </div>
