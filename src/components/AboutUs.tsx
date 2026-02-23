@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutUs() {
   return (
     <section id="about" className="w-full bg-white px-6 py-24 md:py-32 border-b border-[#E8E2D5]">
@@ -77,7 +75,7 @@ export default function AboutUs() {
                 <svg className="w-4 h-4 text-[#8A7961] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Specialising in gut health &amp; women&apos;s health</span>
+                <span>Specialising in gut health & women&#39;s health</span>
               </div>
             </div>
           </div>

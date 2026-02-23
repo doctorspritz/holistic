@@ -1,13 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
-/**
- * ContactForm (Multi-Step Onboarding)
- * Implements command `/polish`: 
- * Evolves the stark, generic contact form into a friction-less, multi-step 
- * conversational questionnaire (The Polln benchmark for onboarding UX).
- */
 export default function ContactForm() {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({

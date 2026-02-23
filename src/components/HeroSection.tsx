@@ -1,5 +1,3 @@
-import React from 'react';
-
 const badges = [
   {
     title: "AHPRA Registered",

@@ -1,13 +1,3 @@
-import React from 'react';
-
-/**
- * Trust & Inclusion Footer - Inspired by Kin & The Provided Copy
- * 
- * Impeccable Principles Applied:
- * - Color with Purpose: Deep, grounding, and serious background color (dark olive/charcoal) 
- *   to anchor the page and signify the weight and discretion of the clinic's inclusion statement.
- * - Typography: High legibility for important legal and inclusion text.
- */
 export default function Footer() {
   return (
     <footer className="w-full bg-[#1A1815] text-[#D1CAB8] px-6 py-16 md:py-24">
