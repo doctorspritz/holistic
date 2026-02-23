@@ -45,6 +45,19 @@ export default function HeroSection() {
           supporting your entire health journey from the comfort of your home.
         </p>
 
+        {/* Practitioner anchor */}
+        <a href="#about" className="inline-flex items-center gap-3 group">
+          <img
+            src="/aimee.webp"
+            alt="Aimee Vajtauer"
+            className="w-12 h-12 rounded-full object-cover object-top ring-2 ring-[#E8E2D5] group-hover:ring-[#8A7961] transition-all"
+          />
+          <span className="text-sm text-[#5C5346] text-left">
+            <span className="block font-medium text-[#2B2824]">Aimee Vajtauer</span>
+            Nurse Practitioner
+          </span>
+        </a>
+
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <a href="#enquiries" className="w-full sm:w-auto px-8 py-4 bg-[#2B2824] hover:bg-[#1A1815] text-[#FAF7F2] rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-[1.02] shadow-sm text-center">
             Book an Appointment
