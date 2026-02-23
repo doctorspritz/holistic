@@ -51,11 +51,11 @@ export default function AboutUs() {
               </svg>
             </div>
 
-            <h3 className="font-serif text-2xl text-[#2B2824] mb-1">Dr. Jane Doe</h3>
-            <p className="text-xs font-bold uppercase tracking-widest text-[#8A7961] mb-6">Lead Practitioner</p>
+            <h3 className="font-serif text-2xl text-[#2B2824] mb-1">Aimee Vajtauer</h3>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#8A7961] mb-6">Nurse Practitioner</p>
 
             <blockquote className="text-lg font-serif text-[#2B2824] leading-relaxed mb-6 border-l-2 border-[#8A7961] pl-5">
-              &ldquo;Healing is a collaborative journey. My goal is to empower you with the tools to reclaim your vitality.&rdquo;
+              &ldquo;I believe in treating the whole person, not just the symptoms. My goal is to empower you with the tools and knowledge to take control of your health.&rdquo;
             </blockquote>
 
             <div className="space-y-3 pt-6 border-t border-[#E8E2D5]">
@@ -63,19 +63,25 @@ export default function AboutUs() {
                 <svg className="w-4 h-4 text-[#8A7961] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>AHPRA Registered Practitioner</span>
+                <span>AHPRA Registered Nurse Practitioner</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-[#5C5346]">
                 <svg className="w-4 h-4 text-[#8A7961] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>10+ years in integrative medicine</span>
+                <span>BNurs (Deakin) &middot; Master of Nurse Practitioner</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-[#5C5346]">
                 <svg className="w-4 h-4 text-[#8A7961] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Specialising in gut health & women&#39;s health</span>
+                <span>Specialising in gastroenterology &amp; metabolic health</span>
+              </div>
+              <div className="flex items-center space-x-3 text-sm text-[#5C5346]">
+                <svg className="w-4 h-4 text-[#8A7961] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Former NP at Princess Alexandra Hospital</span>
               </div>
             </div>
           </div>
