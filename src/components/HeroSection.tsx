@@ -13,15 +13,8 @@ import React from 'react';
  */
 export default function HeroSection() {
   return (
-    <section className="relative w-full bg-[#FAF7F2] px-6 py-24 md:py-32 flex flex-col items-center justify-center text-center overflow-hidden">
-      {/* Subtle, organic background texture/shape - NOT a glowing gradient orb */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-30 pointer-events-none">
-        <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="w-full h-full text-[#E8E2D5] fill-current">
-          <path d="M0,100 C30,80 70,120 100,80 L100,0 L0,0 Z" />
-        </svg>
-      </div>
-
-      <div className="relative z-10 max-w-4xl mx-auto space-y-8">
+    <section className="w-full bg-[#FAF7F2] px-6 py-24 md:py-32 flex flex-col items-center justify-center text-center">
+      <div className="max-w-4xl mx-auto space-y-8">
         <span className="inline-block px-4 py-1.5 rounded-full border border-[#D1CAB8] text-[#5C5346] text-sm font-medium tracking-wide uppercase">
           The Holistic Care Clinic
         </span>
@@ -36,12 +29,12 @@ export default function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <button className="w-full sm:w-auto px-8 py-4 bg-[#2B2824] hover:bg-[#1A1815] text-[#FAF7F2] rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-[1.02] shadow-sm">
+          <a href="#enquiries" className="w-full sm:w-auto px-8 py-4 bg-[#2B2824] hover:bg-[#1A1815] text-[#FAF7F2] rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-[1.02] shadow-sm text-center">
             Book an Appointment
-          </button>
-          <button className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-[#2B2824] text-[#2B2824] hover:bg-[#E8E2D5] rounded-full text-lg font-medium transition-colors duration-300">
+          </a>
+          <a href="#about" className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-[#2B2824] text-[#2B2824] hover:bg-[#E8E2D5] rounded-full text-lg font-medium transition-colors duration-300 text-center">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -69,8 +69,8 @@ export default function ContactForm() {
             </div>
             <div>
               <span className="block text-sm font-bold tracking-widest uppercase text-[#8A7961] mb-1">Phone</span>
-              <a href="tel:+61234567890" className="text-lg font-serif text-[#2B2824] hover:text-[#5C5346] transition-colors">
-                1300 HOLISTIC
+              <a href="tel:+611300465478" className="text-lg font-serif text-[#2B2824] hover:text-[#5C5346] transition-colors">
+                1300 465 478
               </a>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function ContactForm() {
             {!isSuccess && (
               <div className="absolute top-0 left-0 w-full h-1 bg-[#FAF7F2]">
                 <div 
-                  className="h-full bg-[#8A7961] transition-all duration-500 ease-out-quint"
+                  className="h-full bg-[#8A7961] transition-all duration-500 ease-out"
                   style={{ width: `${(step / 3) * 100}%` }}
                 ></div>
               </div>

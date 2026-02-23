@@ -27,8 +27,8 @@ export default function Footer() {
         <div className="md:col-span-4 flex flex-col md:items-end space-y-4">
           <h3 className="text-sm font-bold tracking-widest uppercase text-[#FAF7F2] mb-2">Quick Links</h3>
           <a href="#enquiries" className="hover:text-white transition-colors duration-200">Enquiries</a>
-          <a href="#book" className="hover:text-white transition-colors duration-200">Book an appointment</a>
-          <a href="#fees" className="hover:text-white transition-colors duration-200">Appointments and fees</a>
+          <a href="#enquiries" className="hover:text-white transition-colors duration-200">Book an appointment</a>
+          <a href="#services" className="hover:text-white transition-colors duration-200">Our services</a>
         </div>
         
       </div>
@@ -36,8 +36,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-[#3A352F] text-sm text-[#8A7961] flex flex-col md:flex-row justify-between items-center">
         <p>&copy; {new Date().getFullYear()} The Holistic Care Clinic. All rights reserved.</p>
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#privacy" className="hover:text-[#D1CAB8]">Privacy Policy</a>
-          <a href="#terms" className="hover:text-[#D1CAB8]">Terms of Service</a>
+          <span>Privacy Policy</span>
+          <span>Terms of Service</span>
         </div>
       </div>
     </footer>
